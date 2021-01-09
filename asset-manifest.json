@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/audi-r8-website/static/css/main.90f0ee3f.chunk.css",
+    "main.js": "/audi-r8-website/static/js/main.e8179293.chunk.js",
+    "main.js.map": "/audi-r8-website/static/js/main.e8179293.chunk.js.map",
+    "runtime-main.js": "/audi-r8-website/static/js/runtime-main.09e4b051.js",
+    "runtime-main.js.map": "/audi-r8-website/static/js/runtime-main.09e4b051.js.map",
+    "static/js/2.fbaf24b9.chunk.js": "/audi-r8-website/static/js/2.fbaf24b9.chunk.js",
+    "static/js/2.fbaf24b9.chunk.js.map": "/audi-r8-website/static/js/2.fbaf24b9.chunk.js.map",
+    "index.html": "/audi-r8-website/index.html",
+    "static/css/main.90f0ee3f.chunk.css.map": "/audi-r8-website/static/css/main.90f0ee3f.chunk.css.map",
+    "static/js/2.fbaf24b9.chunk.js.LICENSE.txt": "/audi-r8-website/static/js/2.fbaf24b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09e4b051.js",
+    "static/js/2.fbaf24b9.chunk.js",
+    "static/css/main.90f0ee3f.chunk.css",
+    "static/js/main.e8179293.chunk.js"
+  ]
+}
