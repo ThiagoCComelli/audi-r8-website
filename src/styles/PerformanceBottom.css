@@ -1,0 +1,55 @@
+.mainPerfBottom{
+    width: 100%;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPerfBottomStats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+}
+
+.mainPerfBottomStatsItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mainPerfBottomStatsItem *{
+    position: absolute;
+}
+
+.mainPerfBottomStatsItem h3{
+    font-size: 5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    bottom: -100px;
+}
+
+.mainPerfBottomStatsItem p{
+    font-size: 6rem;
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.mainPerfBottomStatsItem span{
+    bottom: -60px;
+}
+
+.mainPerfBottom hr{
+    border: solid 1px red;
+    width: 100%;
+}
+
+.mainPerfBottomVideo{
+    width: 100%;
+    margin-top: 150px;
+}
+
+.mainPerfBottomVideo video{
+    width: 100%;
+}

@@ -1,0 +1,61 @@
+.mainHero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mainHero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainHero::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,black, transparent 50% ,black),
+                linear-gradient(to top,black, transparent 20%, transparent);
+    background-color: rgba(0, 0, 0, 0.479);
+    
+}
+
+.mainHeroTitles{
+    position: absolute;
+    color: #fff;
+    font-weight: 300;
+    left: 5%;
+    bottom: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainHeroTitles *{
+    margin: 0;
+}
+
+.mainHeroTitles h1{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.mainHeroTitles p{
+    font-size: 1.4rem;
+}
+
+.mainHeroLogo{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    width: 15%;
+}
+
+.mainHeroLogo img{
+    filter: drop-shadow(1px 1px 0 #fff) 
+            drop-shadow(-1px -1px 0 #fff);
+}
+

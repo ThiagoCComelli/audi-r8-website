@@ -1,0 +1,114 @@
+.mainGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.mainGridItem{
+    padding-top: 100%;
+    position: relative;
+}
+
+.mainGridItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.mainGridItem:first-of-type{
+    position: relative;
+}
+
+.mainGridAllSubitem{
+    position: absolute;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    top: 0;
+}
+
+.mainGridSubItem{
+    position: relative;
+    padding-top: 100%;
+    transition: .2s;
+}
+
+.subItem{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: scale linear .5s, box-shadow linear .5s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.card-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-image::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, black, transparent);
+    /* background-color: rgba(0, 0, 0, 0.74); */
+    z-index: 1000;
+}
+
+.card-title{
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.5rem;
+}
+
+.card-title::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: transparent;
+    z-index: 1000;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.267);
+    transform: translateY(100%);
+}
+
+#first::before {
+    content: "R8";
+}
+
+#second::before {
+    content: "Audi";
+}

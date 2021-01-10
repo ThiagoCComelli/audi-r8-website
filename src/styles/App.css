@@ -1,0 +1,33 @@
+.App{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.AppContents{
+    width: 100%;
+    max-width: 1280px;
+}
+
+.author{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 900;
+    font-size: 4rem;
+    margin: 0;
+    margin-bottom: 150px;
+    -webkit-text-stroke: red 1px;
+}
+
+.author a{
+    text-decoration: none;
+}

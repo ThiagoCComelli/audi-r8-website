@@ -1,0 +1,86 @@
+.mainPerfomance{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.mainPerfomanceTitle{
+    width: 75%;
+    /* height: 50px; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid red;
+    padding: 20px;
+    text-align: center;
+}
+
+.mainPerfomanceTitle * {
+    margin: 0;
+    font-weight: 100;
+}
+
+.mainPerfomanceTitle h2{
+    font-size: 5rem;
+}
+
+.mainPerfomanceTitle p{
+    font-size: 2rem;
+}
+
+.mainPerfomanceBoxes{
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainPerfomanceBox{
+    width: 100%;
+    height: 100%;
+    border-bottom: solid red 1px;
+    display: flex;
+}
+
+.mainPerfomanceBoxImage{
+    width: 150px;
+    height: 100%;
+    padding: 15px;
+}
+
+.mainPerfomanceBoxImage img{
+    width: 100%;
+    height: 100%;
+    fill:lawngreen
+}
+
+.mainPerfomanceBoxDesc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainPerfomanceBoxDesc *{
+    margin: 0;
+    font-weight: 300;
+}
+
+.mainPerfomanceBoxDesc h3{
+    margin-bottom: 2px;
+    font-weight: 400;
+}
